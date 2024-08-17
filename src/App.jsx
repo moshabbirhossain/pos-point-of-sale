@@ -8,13 +8,13 @@ const App = () => {
                     {/* left section */}
                     <div className="w-full sm:w-3/5 min-h-screen shadow-sm">
                         {/* header */}
-                        <div className="flex flex-row justify-between items-center px-4 mt-8">
+                        <div className="flex flex-row justify-between items-center px-4 mt-6">
                             <div className="text-gray-800">
                                 <div className="font-bold text-xl">
-                                    Simons's BQQ Team
+                                    Hossain's Grocery
                                 </div>
                                 <span className="text-xs">
-                                    Location ID#SIMON123
+                                    Tetulia, Panchagarh
                                 </span>
                             </div>
                             <div className="flex items-center">
@@ -36,7 +36,7 @@ const App = () => {
                         {/* end header */}
                         {/* categories */}
                         <div className="mt-8 flex flex-row px-5">
-                            <span className="px-4 py-1 bg-yellow-500 rounded-2xl text-white text-sm mr-4">
+                            <span className="px-4 py-1 bg-orange-500 rounded-xl text-white text-sm mr-4">
                                 All items
                             </span>
                             <span className="px-4 py-1 rounded-2xl text-sm font-semibold mr-4">
@@ -53,223 +53,163 @@ const App = () => {
                         {/* products */}
                         <div className="grid grid-cols-3 gap-4 px-4 mt-8 overflow-y-auto h-3/4">
                             <div className="px-3 py-3 flex flex-col border border-gray-200 rounded-lg h-32 justify-between">
-                                <div>
-                                    <div className="font-bold text-gray-800">
+                                <div className="flex flex-row justify-between">
+                                    <img
+                                        src="https://i.ibb.co/1qNX6pr/pizza.png"
+                                        className=" h-14 w-14 object-cover rounded-lg"
+                                        alt=""
+                                    />
+                                    <span className="font-light text-sm text-gray-400 self-start">
+                                        150g
+                                    </span>
+                                </div>
+                                <div className="flex flex-row justify-between items-center">
+                                    <div className="font-bold text-gray-800 self-end">
                                         Griled corn
                                     </div>
-                                    <span className="font-light text-sm text-gray-400">
-                                        150g
-                                    </span>
-                                </div>
-                                <div className="flex flex-row justify-between items-center">
-                                    <span className="self-end font-bold text-sm text-yellow-500">
+                                    <span className="self-end font-bold text-sm text-orange-400">
                                         $1.75
                                     </span>
-                                    <img
-                                        src="https://source.unsplash.com/sc5sTPMrVfk/600x600"
-                                        className=" h-14 w-14 object-cover rounded-lg"
-                                        alt=""
-                                    />
                                 </div>
                             </div>
                             <div className="px-3 py-3 flex flex-col border border-gray-200 rounded-lg h-32 justify-between">
-                                <div>
-                                    <div className="font-bold text-gray-800">
-                                        Ranch Burger
-                                    </div>
-                                    <span className="font-light text-sm text-gray-400">
+                                <div className="flex flex-row justify-between">
+                                    <img
+                                        src="https://i.ibb.co/1qNX6pr/pizza.png"
+                                        className=" h-14 w-14 object-cover rounded-lg"
+                                        alt=""
+                                    />
+                                    <span className="font-light text-sm text-gray-400 self-start">
                                         150g
                                     </span>
                                 </div>
                                 <div className="flex flex-row justify-between items-center">
-                                    <span className="self-end font-bold text-sm text-yellow-500">
-                                        $7.00
-                                    </span>
-                                    <img
-                                        src="https://source.unsplash.com/sc5sTPMrVfk/600x500"
-                                        className=" h-14 w-14 object-cover rounded-lg"
-                                        alt=""
-                                    />
-                                </div>
-                            </div>
-                            <div className="px-3 py-3 flex flex-col border border-gray-200 rounded-lg h-32 justify-between">
-                                <div>
-                                    <div className="font-bold text-gray-800">
-                                        Pizza Bacon
-                                    </div>
-                                    <span className="font-light text-sm text-gray-400">
-                                        150g
-                                    </span>
-                                </div>
-                                <div className="flex flex-row justify-between items-center">
-                                    <span className="self-end font-bold text-sm text-yellow-500">
-                                        $1.75
-                                    </span>
-                                    <img
-                                        src="https://source.unsplash.com/sc5sTPMrVfk/500x500"
-                                        className=" h-14 w-14 object-cover rounded-lg"
-                                        alt=""
-                                    />
-                                </div>
-                            </div>
-                            <div className="px-3 py-3 flex flex-col border border-gray-200 rounded-lg h-32 justify-between">
-                                <div>
-                                    <div className="font-bold text-gray-800">
+                                    <div className="font-bold text-gray-800 self-end">
                                         Griled corn
                                     </div>
-                                    <span className="font-light text-sm text-gray-400">
-                                        150g
-                                    </span>
-                                </div>
-                                <div className="flex flex-row justify-between items-center">
-                                    <span className="self-end font-bold text-sm text-yellow-500">
+                                    <span className="self-end font-bold text-sm text-orange-400">
                                         $1.75
                                     </span>
-                                    <img
-                                        src="https://source.unsplash.com/MNtag_eXMKw/600x600"
-                                        className=" h-14 w-14 object-cover rounded-lg"
-                                        alt=""
-                                    />
                                 </div>
                             </div>
                             <div className="px-3 py-3 flex flex-col border border-gray-200 rounded-lg h-32 justify-between">
-                                <div>
-                                    <div className="font-bold text-gray-800">
-                                        Griled corn
-                                    </div>
-                                    <span className="font-light text-sm text-gray-400">
+                                <div className="flex flex-row justify-between">
+                                    <img
+                                        src="https://i.ibb.co/1qNX6pr/pizza.png"
+                                        className=" h-14 w-14 object-cover rounded-lg"
+                                        alt=""
+                                    />
+                                    <span className="font-light text-sm text-gray-400 self-start">
                                         150g
                                     </span>
                                 </div>
                                 <div className="flex flex-row justify-between items-center">
-                                    <span className="self-end font-bold text-sm text-yellow-500">
+                                    <div className="font-bold text-gray-800 self-end">
+                                        Griled corn
+                                    </div>
+                                    <span className="self-end font-bold text-sm text-orange-400">
                                         $1.75
                                     </span>
-                                    <img
-                                        src="https://source.unsplash.com/MNtag_eXMKw/600x600"
-                                        className=" h-14 w-14 object-cover rounded-lg"
-                                        alt=""
-                                    />
                                 </div>
                             </div>
                             <div className="px-3 py-3 flex flex-col border border-gray-200 rounded-lg h-32 justify-between">
-                                <div>
-                                    <div className="font-bold text-gray-800">
-                                        Griled corn
-                                    </div>
-                                    <span className="font-light text-sm text-gray-400">
+                                <div className="flex flex-row justify-between">
+                                    <img
+                                        src="https://i.ibb.co/1qNX6pr/pizza.png"
+                                        className=" h-14 w-14 object-cover rounded-lg"
+                                        alt=""
+                                    />
+                                    <span className="font-light text-sm text-gray-400 self-start">
                                         150g
                                     </span>
                                 </div>
                                 <div className="flex flex-row justify-between items-center">
-                                    <span className="self-end font-bold text-sm text-yellow-500">
+                                    <div className="font-bold text-gray-800 self-end">
+                                        Griled corn
+                                    </div>
+                                    <span className="self-end font-bold text-sm text-orange-400">
                                         $1.75
                                     </span>
-                                    <img
-                                        src="https://source.unsplash.com/MNtag_eXMKw/600x600"
-                                        className=" h-14 w-14 object-cover rounded-lg"
-                                        alt=""
-                                    />
                                 </div>
                             </div>
                             <div className="px-3 py-3 flex flex-col border border-gray-200 rounded-lg h-32 justify-between">
-                                <div>
-                                    <div className="font-bold text-gray-800">
-                                        Griled corn
-                                    </div>
-                                    <span className="font-light text-sm text-gray-400">
+                                <div className="flex flex-row justify-between">
+                                    <img
+                                        src="https://i.ibb.co/1qNX6pr/pizza.png"
+                                        className=" h-14 w-14 object-cover rounded-lg"
+                                        alt=""
+                                    />
+                                    <span className="font-light text-sm text-gray-400 self-start">
                                         150g
                                     </span>
                                 </div>
                                 <div className="flex flex-row justify-between items-center">
-                                    <span className="self-end font-bold text-sm text-yellow-500">
+                                    <div className="font-bold text-gray-800 self-end">
+                                        Griled corn
+                                    </div>
+                                    <span className="self-end font-bold text-sm text-orange-400">
                                         $1.75
                                     </span>
-                                    <img
-                                        src="https://source.unsplash.com/MNtag_eXMKw/600x600"
-                                        className=" h-14 w-14 object-cover rounded-lg"
-                                        alt=""
-                                    />
                                 </div>
                             </div>
                             <div className="px-3 py-3 flex flex-col border border-gray-200 rounded-lg h-32 justify-between">
-                                <div>
-                                    <div className="font-bold text-gray-800">
-                                        Griled corn
-                                    </div>
-                                    <span className="font-light text-sm text-gray-400">
+                                <div className="flex flex-row justify-between">
+                                    <img
+                                        src="https://i.ibb.co/1qNX6pr/pizza.png"
+                                        className=" h-14 w-14 object-cover rounded-lg"
+                                        alt=""
+                                    />
+                                    <span className="font-light text-sm text-gray-400 self-start">
                                         150g
                                     </span>
                                 </div>
                                 <div className="flex flex-row justify-between items-center">
-                                    <span className="self-end font-bold text-sm text-yellow-500">
+                                    <div className="font-bold text-gray-800 self-end">
+                                        Griled corn
+                                    </div>
+                                    <span className="self-end font-bold text-sm text-orange-400">
                                         $1.75
                                     </span>
-                                    <img
-                                        src="https://source.unsplash.com/MNtag_eXMKw/600x600"
-                                        className=" h-14 w-14 object-cover rounded-lg"
-                                        alt=""
-                                    />
                                 </div>
                             </div>
                             <div className="px-3 py-3 flex flex-col border border-gray-200 rounded-lg h-32 justify-between">
-                                <div>
-                                    <div className="font-bold text-gray-800">
-                                        Griled corn
-                                    </div>
-                                    <span className="font-light text-sm text-gray-400">
+                                <div className="flex flex-row justify-between">
+                                    <img
+                                        src="https://i.ibb.co/1qNX6pr/pizza.png"
+                                        className=" h-14 w-14 object-cover rounded-lg"
+                                        alt=""
+                                    />
+                                    <span className="font-light text-sm text-gray-400 self-start">
                                         150g
                                     </span>
                                 </div>
                                 <div className="flex flex-row justify-between items-center">
-                                    <span className="self-end font-bold text-sm text-yellow-500">
+                                    <div className="font-bold text-gray-800 self-end">
+                                        Griled corn
+                                    </div>
+                                    <span className="self-end font-bold text-sm text-orange-400">
                                         $1.75
                                     </span>
-                                    <img
-                                        src="https://source.unsplash.com/MNtag_eXMKw/600x600"
-                                        className=" h-14 w-14 object-cover rounded-lg"
-                                        alt=""
-                                    />
                                 </div>
                             </div>
                             <div className="px-3 py-3 flex flex-col border border-gray-200 rounded-lg h-32 justify-between">
-                                <div>
-                                    <div className="font-bold text-gray-800">
-                                        Griled corn
-                                    </div>
-                                    <span className="font-light text-sm text-gray-400">
+                                <div className="flex flex-row justify-between">
+                                    <img
+                                        src="https://i.ibb.co/1qNX6pr/pizza.png"
+                                        className=" h-14 w-14 object-cover rounded-lg"
+                                        alt=""
+                                    />
+                                    <span className="font-light text-sm text-gray-400 self-start">
                                         150g
                                     </span>
                                 </div>
                                 <div className="flex flex-row justify-between items-center">
-                                    <span className="self-end font-bold text-sm text-yellow-500">
-                                        $1.75
-                                    </span>
-                                    <img
-                                        src="https://source.unsplash.com/MNtag_eXMKw/600x600"
-                                        className=" h-14 w-14 object-cover rounded-lg"
-                                        alt=""
-                                    />
-                                </div>
-                            </div>
-                            <div className="px-3 py-3 flex flex-col border border-gray-200 rounded-lg h-32 justify-between">
-                                <div>
-                                    <div className="font-bold text-gray-800">
+                                    <div className="font-bold text-gray-800 self-end">
                                         Griled corn
                                     </div>
-                                    <span className="font-light text-sm text-gray-400">
-                                        150g
-                                    </span>
-                                </div>
-                                <div className="flex flex-row justify-between items-center">
-                                    <span className="self-end font-bold text-sm text-yellow-500">
+                                    <span className="self-end font-bold text-sm text-orange-400">
                                         $1.75
                                     </span>
-                                    <img
-                                        src="https://source.unsplash.com/MNtag_eXMKw/600x600"
-                                        className=" h-14 w-14 object-cover rounded-lg"
-                                        alt=""
-                                    />
                                 </div>
                             </div>
                         </div>

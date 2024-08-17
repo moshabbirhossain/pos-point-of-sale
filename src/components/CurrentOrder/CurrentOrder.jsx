@@ -2,13 +2,13 @@ const CurrentOrder = () => {
     return (
         <div>
             {/* header */}
-            <div className="flex flex-row items-center justify-between px-5 mt-5">
+            <div className="flex flex-row items-center justify-between px-5 mt-6">
                 <div className="font-bold text-xl">Current Order</div>
                 <div className="font-semibold flex gap-2">
                     <span className="px-3 py-2 rounded-lg bg-pink-500 text-white">
                         Clear All
                     </span>
-                    <span className="px-3 py-2 rounded-lg bg-gray-100 text-gray-800">
+                    <span className="px-3 py-2 rounded-lg bg-gray-200 text-gray-800">
                         Setting
                     </span>
                 </div>
@@ -19,7 +19,7 @@ const CurrentOrder = () => {
                 <div className="flex flex-row justify-between items-center mb-4">
                     <div className="flex flex-row items-center w-2/5">
                         <img
-                            src="https://source.unsplash.com/4u_nRgiLW3M/600x600"
+                            src="https://i.ibb.co/1qNX6pr/pizza.png"
                             className="w-10 h-10 object-cover rounded-md"
                             alt=""
                         />
@@ -28,11 +28,11 @@ const CurrentOrder = () => {
                         </span>
                     </div>
                     <div className="w-32 flex justify-between">
-                        <span className="px-3 py-1 rounded-md bg-gray-300 ">
+                        <span className="px-3 py-1 rounded-md bg-gray-200 ">
                             -
                         </span>
                         <span className="font-semibold mx-4">2</span>
-                        <span className="px-3 py-1 rounded-md bg-gray-300 ">
+                        <span className="px-3 py-1 rounded-md bg-gray-200">
                             +
                         </span>
                     </div>
@@ -52,11 +52,11 @@ const CurrentOrder = () => {
                         </span>
                     </div>
                     <div className="w-32 flex justify-between">
-                        <span className="px-3 py-1 rounded-md bg-gray-300 ">
+                        <span className="px-3 py-1 rounded-md bg-gray-200">
                             -
                         </span>
                         <span className="font-semibold mx-4">10</span>
-                        <span className="px-3 py-1 rounded-md bg-gray-300 ">
+                        <span className="px-3 py-1 rounded-md bg-gray-200 ">
                             +
                         </span>
                     </div>
@@ -76,11 +76,11 @@ const CurrentOrder = () => {
                         </span>
                     </div>
                     <div className="w-32 flex justify-between">
-                        <span className="px-3 py-1 rounded-md bg-gray-300 ">
+                        <span className="px-3 py-1 rounded-md bg-gray-200 ">
                             -
                         </span>
                         <span className="font-semibold mx-4">10</span>
-                        <span className="px-3 py-1 rounded-md bg-gray-300 ">
+                        <span className="px-3 py-1 rounded-md bg-gray-200 ">
                             +
                         </span>
                     </div>
@@ -100,11 +100,11 @@ const CurrentOrder = () => {
                         </span>
                     </div>
                     <div className="w-32 flex justify-between">
-                        <span className="px-3 py-1 rounded-md bg-gray-300 ">
+                        <span className="px-3 py-1 rounded-md bg-gray-200 ">
                             -
                         </span>
                         <span className="font-semibold mx-4">10</span>
-                        <span className="px-3 py-1 rounded-md bg-gray-300 ">
+                        <span className="px-3 py-1 rounded-md bg-gray-200 ">
                             +
                         </span>
                     </div>
@@ -128,7 +128,7 @@ const CurrentOrder = () => {
                             x
                         </span>
                         <span className="font-semibold mx-4">1</span>
-                        <span className="px-3 py-1 rounded-md bg-gray-300 ">
+                        <span className="px-3 py-1 rounded-md bg-gray-200 ">
                             +
                         </span>
                     </div>
@@ -152,7 +152,7 @@ const CurrentOrder = () => {
                             x
                         </span>
                         <span className="font-semibold mx-4">1</span>
-                        <span className="px-3 py-1 rounded-md bg-gray-300 ">
+                        <span className="px-3 py-1 rounded-md bg-gray-200 ">
                             +
                         </span>
                     </div>
@@ -192,14 +192,14 @@ const CurrentOrder = () => {
                             <span className="uppercase text-xs font-semibold">
                                 cashless credit
                             </span>
-                            <span className="text-xl font-bold text-yellow-500">
+                            <span className="text-xl font-bold text-orange-500">
                                 $32.50
                             </span>
                             <span className=" text-xs text-gray-400 ">
                                 Available
                             </span>
                         </div>
-                        <div className="px-4 py-3 bg-gray-300 text-gray-800 rounded-md font-bold">
+                        <div className="px-4 py-3 bg-red-500 text-white rounded-md font-bold">
                             {" "}
                             Cancel
                         </div>
@@ -209,7 +209,7 @@ const CurrentOrder = () => {
             {/* end cash */}
             {/* button pay*/}
             <div className="px-5 mt-5">
-                <div className="px-4 py-4 rounded-md shadow-sm text-center bg-yellow-500 text-white font-semibold">
+                <div className="px-4 py-4 rounded-md shadow-sm text-center bg-orange-500 text-white font-semibold">
                     Pay With Cashless Credit
                 </div>
             </div>
