@@ -17,6 +17,9 @@ const App = () => {
                                     Tetulia, Panchagarh
                                 </span>
                             </div>
+                            <div className="text-gray-800 text-lg font-normal ">
+                                <input type="search" name="" id="" placeholder="Search Item" className="border-solid border-2 rounded-full outline-none px-5 py-1"/>
+                            </div>
                             <div className="flex items-center">
                                 <div className="text-sm text-center mr-4">
                                     <div className="font-light text-gray-500">

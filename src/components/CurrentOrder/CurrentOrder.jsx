@@ -170,11 +170,11 @@ const CurrentOrder = () => {
                         <span className="font-bold">$35.25</span>
                     </div>
                     <div className=" px-4 flex justify-between ">
-                        <span className="font-semibold text-sm">Discount</span>
+                        <span className="font-semibold text-sm">Discount (2.5%)</span>
                         <span className="font-bold">- $5.00</span>
                     </div>
                     <div className=" px-4 flex justify-between ">
-                        <span className="font-semibold text-sm">Sales Tax</span>
+                        <span className="font-semibold text-sm">Tax (10%)</span>
                         <span className="font-bold">$2.25</span>
                     </div>
                     <div className="border-t-2 mt-3 py-2 px-4 flex items-center justify-between">
