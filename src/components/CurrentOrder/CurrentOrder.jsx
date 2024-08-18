@@ -8,7 +8,7 @@ const CurrentOrder = () => {
                     <span className="px-3 py-2 rounded-lg bg-pink-500 text-white">
                         Clear All
                     </span>
-                    <span className="px-3 py-2 rounded-lg bg-gray-200 text-gray-800">
+                    <span className="px-3 py-2 rounded-lg bg-green-500 text-white">
                         Setting
                     </span>
                 </div>
@@ -43,7 +43,7 @@ const CurrentOrder = () => {
                 <div className="flex flex-row justify-between items-center mb-4">
                     <div className="flex flex-row items-center w-2/5">
                         <img
-                            src="https://source.unsplash.com/sc5sTPMrVfk/600x600"
+                            src="https://i.ibb.co/1qNX6pr/pizza.png"
                             className="w-10 h-10 object-cover rounded-md"
                             alt=""
                         />
@@ -67,7 +67,7 @@ const CurrentOrder = () => {
                 <div className="flex flex-row justify-between items-center mb-4">
                     <div className="flex flex-row items-center w-2/5">
                         <img
-                            src="https://source.unsplash.com/MNtag_eXMKw/600x600"
+                            src="https://i.ibb.co/1qNX6pr/pizza.png"
                             className="w-10 h-10 object-cover rounded-md"
                             alt=""
                         />
@@ -91,7 +91,7 @@ const CurrentOrder = () => {
                 <div className="flex flex-row justify-between items-center mb-4">
                     <div className="flex flex-row items-center w-2/5">
                         <img
-                            src="https://source.unsplash.com/MNtag_eXMKw/600x600"
+                            src="https://i.ibb.co/1qNX6pr/pizza.png"
                             className="w-10 h-10 object-cover rounded-md"
                             alt=""
                         />
@@ -115,7 +115,7 @@ const CurrentOrder = () => {
                 <div className="flex flex-row justify-between items-center mb-4">
                     <div className="flex flex-row items-center w-2/5">
                         <img
-                            src="https://source.unsplash.com/MNtag_eXMKw/600x600"
+                            src="https://i.ibb.co/1qNX6pr/pizza.png"
                             className="w-10 h-10 object-cover rounded-md"
                             alt=""
                         />
@@ -139,7 +139,7 @@ const CurrentOrder = () => {
                 <div className="flex flex-row justify-between items-center mb-4">
                     <div className="flex flex-row items-center w-2/5">
                         <img
-                            src="https://source.unsplash.com/4u_nRgiLW3M/600x600"
+                            src="https://i.ibb.co/1qNX6pr/pizza.png"
                             className="w-10 h-10 object-cover rounded-md"
                             alt=""
                         />
@@ -210,7 +210,7 @@ const CurrentOrder = () => {
             {/* button pay*/}
             <div className="px-5 mt-5">
                 <div className="px-4 py-4 rounded-md shadow-sm text-center bg-orange-500 text-white font-semibold">
-                    Pay With Cashless Credit
+                    Pay With Card
                 </div>
             </div>
             {/* end button pay */}

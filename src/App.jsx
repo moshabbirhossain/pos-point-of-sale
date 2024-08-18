@@ -27,7 +27,7 @@ const App = () => {
                                     </span>
                                 </div>
                                 <div>
-                                    <span className="px-4 py-2 bg-gray-200 text-gray-800 font-semibold rounded">
+                                    <span className="px-4 py-2 bg-blue-700 text-white font-semibold rounded">
                                         Help
                                     </span>
                                 </div>
@@ -52,27 +52,31 @@ const App = () => {
                         {/* end categories */}
                         {/* products */}
                         <div className="grid grid-cols-3 gap-4 px-4 mt-8 overflow-y-auto h-3/4">
-                            <div className="px-3 py-3 flex flex-col border border-gray-200 rounded-lg h-32 justify-between">
+                            <div className="px-3 py-3 flex flex-col border border-gray-200 rounded-lg h-40 justify-between">
                                 <div className="flex flex-row justify-between">
+                                    <div className="font-bold text-gray-800 self-start">
+                                        Griled corn
+                                    </div>
                                     <img
                                         src="https://i.ibb.co/1qNX6pr/pizza.png"
                                         className=" h-14 w-14 object-cover rounded-lg"
                                         alt=""
                                     />
-                                    <span className="font-light text-sm text-gray-400 self-start">
-                                        150g
-                                    </span>
                                 </div>
                                 <div className="flex flex-row justify-between items-center">
-                                    <div className="font-bold text-gray-800 self-end">
-                                        Griled corn
-                                    </div>
+                                    <span className="font-light text-sm text-gray-400 self-end">
+                                        150g
+                                    </span>
                                     <span className="self-end font-bold text-sm text-orange-400">
                                         $1.75
                                     </span>
+                                </div>
+
+                                <div className="px- mt-2 py-1 rounded-md shadow-sm text-center bg-orange-500 text-white font-normal">
+                                    Add To Cart
                                 </div>
                             </div>
-                            <div className="px-3 py-3 flex flex-col border border-gray-200 rounded-lg h-32 justify-between">
+                            <div className="px-3 py-3 flex flex-col border border-gray-200 rounded-lg h-40 justify-between">
                                 <div className="flex flex-row justify-between">
                                     <img
                                         src="https://i.ibb.co/1qNX6pr/pizza.png"
@@ -90,26 +94,34 @@ const App = () => {
                                     <span className="self-end font-bold text-sm text-orange-400">
                                         $1.75
                                     </span>
+                                </div>
+
+                                <div className="px- mt-2 py-1 rounded-md shadow-sm text-center bg-orange-500 text-white font-normal">
+                                    Add To Cart
                                 </div>
                             </div>
-                            <div className="px-3 py-3 flex flex-col border border-gray-200 rounded-lg h-32 justify-between">
+                            <div className="px-3 py-3 flex flex-col border border-gray-200 rounded-lg h-40 justify-between">
                                 <div className="flex flex-row justify-between">
-                                    <img
-                                        src="https://i.ibb.co/1qNX6pr/pizza.png"
-                                        className=" h-14 w-14 object-cover rounded-lg"
-                                        alt=""
-                                    />
+                                    <div className="font-bold text-gray-800 self-end">
+                                        Griled corn
+                                    </div>
                                     <span className="font-light text-sm text-gray-400 self-start">
                                         150g
                                     </span>
                                 </div>
                                 <div className="flex flex-row justify-between items-center">
-                                    <div className="font-bold text-gray-800 self-end">
-                                        Griled corn
-                                    </div>
                                     <span className="self-end font-bold text-sm text-orange-400">
                                         $1.75
                                     </span>
+                                    <img
+                                        src="https://i.ibb.co/1qNX6pr/pizza.png"
+                                        className=" h-14 w-14 object-cover rounded-lg"
+                                        alt=""
+                                    />
+                                </div>
+
+                                <div className="px- mt-2 py-1 rounded-md shadow-sm text-center bg-orange-500 text-white font-normal">
+                                    Add To Cart
                                 </div>
                             </div>
                             <div className="px-3 py-3 flex flex-col border border-gray-200 rounded-lg h-32 justify-between">
